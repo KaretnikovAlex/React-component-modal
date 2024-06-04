@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ReReact-component-modal/static/css/main.54980837.css",
-    "main.js": "/ReReact-component-modal/static/js/main.3a2e881d.js",
-    "static/js/453.b8b48edf.chunk.js": "/ReReact-component-modal/static/js/453.b8b48edf.chunk.js",
-    "static/media/logo.svg": "/ReReact-component-modal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ReReact-component-modal/index.html",
-    "main.54980837.css.map": "/ReReact-component-modal/static/css/main.54980837.css.map",
-    "main.3a2e881d.js.map": "/ReReact-component-modal/static/js/main.3a2e881d.js.map",
-    "453.b8b48edf.chunk.js.map": "/ReReact-component-modal/static/js/453.b8b48edf.chunk.js.map"
+    "main.css": "/React-component-modal/static/css/main.54980837.css",
+    "main.js": "/React-component-modal/static/js/main.7038068b.js",
+    "static/js/453.b8b48edf.chunk.js": "/React-component-modal/static/js/453.b8b48edf.chunk.js",
+    "static/media/logo.svg": "/React-component-modal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-component-modal/index.html",
+    "main.54980837.css.map": "/React-component-modal/static/css/main.54980837.css.map",
+    "main.7038068b.js.map": "/React-component-modal/static/js/main.7038068b.js.map",
+    "453.b8b48edf.chunk.js.map": "/React-component-modal/static/js/453.b8b48edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54980837.css",
-    "static/js/main.3a2e881d.js"
+    "static/js/main.7038068b.js"
   ]
 }
