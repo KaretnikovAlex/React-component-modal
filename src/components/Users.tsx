@@ -2,11 +2,13 @@ import React from "react";
 import axios, { AxiosError } from "axios";
 import { useState, useEffect } from "react";
 import { IUser } from "../models";
+import { Modal } from "./Modal";
 
 export function Users() {
     const [users, setUsers] = useState<IUser[]>([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
+    const [modal, setModal] = useState(false);
 
     async function fetchUsers() {
         try {
@@ -39,6 +41,17 @@ export function Users() {
                     <p> {elem.email} </p>
                 </div>
             )}
+
+            {modal && <Modal title="Добавление в список пользователей" onClose={() => setModal(false)}>
+                <div>Text</div>
+            </Modal>}
+
+            <button
+                className='inline-block mt-3 bg-red-700 text-white text-2xl px-4 py-2'
+                onClick={() => setModal(true)}
+            >
+                +
+            </button>
 
         </div>
     )
